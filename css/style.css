@@ -3,3 +3,7 @@
   position: absolute;
   left: 35%;
 }
+
+div.images {
+  display: none;
+}
