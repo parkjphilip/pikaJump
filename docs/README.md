@@ -1,6 +1,5 @@
 # PikaJump
 
-
 ## MVP
 pikaJump is a clone of [doodle jump](http://doodlejump.org/) written in javascript using Canvas. Sprites will be used for game images.
 
