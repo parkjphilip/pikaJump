@@ -1,5 +1,4 @@
 #game-canvas {
-  border: 1px solid black;
   position: absolute;
   left: 35%;
 }
@@ -12,9 +11,54 @@
 #splash {
   position: absolute;
   z-index: 1;
-  width: 400px;
-  height: 550px;
+  width: 398px;
+  height: 548px;
   left: 35%;
+  border: 1px solid black;
 }
-#splash-message {
+
+#logo {
+  width: 80%;
+  height: auto;
+  margin: 40px 40px 20px 40px;
+  /*justify-content: center;*/
+}
+
+.pikachus {
+  display: flex;
+  justify-content: space-around;
+}
+
+#pikachu1, #pikachu2 {
+  width: 30%;
+  height: 30%;
+}
+
+.arrows {
+  display: flex;
+}
+
+#leftarrow, #rightarrow {
+  width: 10%;
+  height: 10%;
+}
+
+#leftarrow {
+  margin-left: 15px;
+  margin-top: 30px;
+}
+
+#rightarrow {
+  margin-top: 31px;
+}
+
+#arrow-directions {
+  margin-left: 10px;
+  margin-top: 40px;
+}
+
+#splash-directions {
+  width: 300px;
+  margin: 20px auto;
+  text-align: center;
 }
