@@ -4,14 +4,17 @@
   left: 35%;
 }
 
-div.images {
+#images {
   display: none;
 }
 
-.opening {
+
+#splash {
   position: absolute;
   z-index: 1;
   width: 400px;
   height: 550px;
   left: 35%;
+}
+#splash-message {
 }
