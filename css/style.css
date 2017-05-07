@@ -3,12 +3,11 @@
   left: 35%;
 }
 
-#images {
+#images, #game-over {
   display: none;
 }
 
-
-#splash {
+#splash, #game-over {
   position: absolute;
   z-index: 1;
   width: 398px;
@@ -21,7 +20,6 @@
   width: 80%;
   height: auto;
   margin: 40px 40px 20px 40px;
-  /*justify-content: center;*/
 }
 
 .pikachus {
