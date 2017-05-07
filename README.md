@@ -1,3 +1,3 @@
 # PikaJump
 
-[Live Demo](https://philippark.github.io/pikaJump)
+[Live Demo](https://parkjphilip.github.io/pikaJump)
