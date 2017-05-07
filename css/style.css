@@ -1,3 +1,6 @@
+body {
+  font-family: sans-serif;
+}
 #game-canvas {
   position: absolute;
   left: 35%;
@@ -55,8 +58,34 @@
   margin-top: 40px;
 }
 
+.platforms {
+  display: flex;
+  margin-left: 15px;
+  margin-top: 20px;
+}
+
+#platform {
+  width: 75px;
+  height: 20px;
+}
+
+#direction1 {
+  margin-left: 15px;
+}
 #splash-directions {
   width: 300px;
   margin: 20px auto;
+  text-align: center;
+}
+
+#pikachu-game-over {
+  width: 70%;
+  height: auto;
+  margin: 20px 50px;
+}
+
+#gameover-1, #gameover-2, #gameover-3 {
+  font-size: 20px;
+  margin-top: 20px;
   text-align: center;
 }
