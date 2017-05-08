@@ -104,3 +104,39 @@ body {
   margin-top: 20px;
   text-align: center;
 }
+
+#footer {
+  display: flex;
+  position: absolute;
+  left: 35%;
+  top: 556px;
+  justify-content: space-between;
+  background: yellow;
+  border: 1px solid black;
+  font-size: 16px;
+  color: black;
+  /*display: none;*/
+}
+
+#footer-left, #footer-right {
+  padding: 10px;
+}
+
+#footer-left {
+  border-right: 1px solid black;
+  padding-right: 10px;
+}
+
+#footer-right {
+  margin-left: 48px;
+  font-weight: bold;
+}
+
+#name, a {
+  text-decoration: none;
+  margin-left: 10px;
+}
+
+a:hover {
+  color: red;
+}
