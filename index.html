@@ -8,47 +8,50 @@
 
   </head>
   <body>
+
     <canvas id="game-canvas" width="400" height="550"> </canvas>
+
     <div id="splash">
       <img id="logo" src="./assets/pikaJump.png" />
       <div class="pikachus">
         <img id="pikachu1" src="./assets/pikachu1.png" />
         <img id="pikachu2" src="./assets/pikachu2.png" />
-
       </div>
       <div class="arrows">
         <img id="leftarrow" src="./assets/leftarrow.png" />
         <img id="rightarrow" src="./assets/rightarrow.png" />
         <div id="arrow-directions"> Use arrow keys to control Pikachu </div>
       </div>
-
       <div class="platforms">
         <img id="platform" src="./assets/greenplatform.png" />
         <div id="direction1">Use the platforms to keep Pikachu alive </div>
       </div>
+      <div class="enemies">
+        <img id="enemy" src="./assets/enemies/bulbasaur.png" />
+        <img id="enemy" src="./assets/enemies/charmander.png" />
 
-      <!-- <div class="enemies">
-        <div id="direction2">Dodge the enemy pokemon coming after Pikachu </div>
-      </div> -->
-
+        <div id="direction2">Dodge enemy pokemon </div>
+      </div>
       <div id="splash-directions">
         <div id="direction3">Press T to toggle sound </div>
         <div id="direction4"> Press ENTER to start </div>
         <div id="direction5"> Good luck! </div>
       </div>
     </div>
+
     <div id="images">
       <img id="pikachu" src="./assets/pikachu_sprite.png"/>
       <img id="background" src="./assets/background.jpg"/>
     </div>
+
     <div id="game-over">
       <img id="pikachu-game-over" src="./assets/pikachugameover.png"/>
-
       <div id="gameover-1"> Pikachu has died!</div>
       <div id="gameover-2"> </div>
       <div id="gameover-3"> Press ENTER to return to the home screen </div>
-
     </div>
+
     <script src="./lib/bundle.js"></script>
   </body>
+
 </html>
