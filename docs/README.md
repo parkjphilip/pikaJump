@@ -24,11 +24,13 @@ able to ascend, the higher the user's score.
 - Day 2: Game over
   - Game loop
   - Conditional logic
-- Day 3: Score/High score board
+- Day 3: Score
   - Score based on height ascended
-  - High score board
 
 ## Technologies
 - JavaScript
 - Canvas
 - CSS
+
+## Bonus
+- High score board
