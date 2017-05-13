@@ -1,5 +1,6 @@
 body {
   font-family: sans-serif;
+  background: rgb(215, 212, 208);
 }
 #game-canvas {
   position: absolute;
