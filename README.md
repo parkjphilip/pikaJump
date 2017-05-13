@@ -16,7 +16,7 @@ Control Pikachu and stay alive by jumping from platform to platform while avoidi
 
 #### Scrolling Background
 
-A scrolling background was created using the drawImage function from HTML5 Canvas. Platforms were endlessly rendered and made to seem like they were falling by repositioning them with a set displacement at every iteration of the game loop. If a platform were to fall out of range of the canvas, it would be re-rendered at the top to be seen as a new platform.
+A scrolling background was created using the drawImage function from HTML5 Canvas. Platforms are endlessly rendered and made to seem like they are falling by repositioning them with a set displacement at every iteration of the game loop. If a platform were to fall out of range of the canvas, it would be re-rendered at the top to be seen as a new platform.
 
 ```javascript
   updatePlatform() {
