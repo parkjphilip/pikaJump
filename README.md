@@ -2,7 +2,8 @@
 
 [Live Demo](https://parkjphilip.github.io/pikaJump)
 
-![main](assets/readmepic.png)
+<img src="assets/readmepic.png" width="500">
+
 
 ### Background
 
