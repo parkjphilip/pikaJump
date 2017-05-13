@@ -2,6 +2,8 @@
 
 [Live Demo](https://parkjphilip.github.io/pikaJump)
 
+![main](assets/readmepic.png)
+
 ### Background
 
 PikaJump is an endless platform jumping game inspired by DoodleJump. It was developed in JavaScript and uses HTML5 Canvas for smooth 2D rendering.
